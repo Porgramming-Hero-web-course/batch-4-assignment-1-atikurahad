@@ -7,8 +7,8 @@ function validateKeys<T extends object>(obj: T, keys: (keyof T)[]): boolean {
     return true;
   }
   
-  // Sample Input
-  const person = { name: "Alice", age: 25, email: "alice@example.com" };
+
+  const person = { name: "Abid", age: 35, email: "abid@yahoo.com" };
   
 
   
