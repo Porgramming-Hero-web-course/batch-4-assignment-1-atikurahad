@@ -1,24 +1,24 @@
-// The significance of union and intersection types in Typescript.
+ The significance of union and intersection types in Typescript.union and intersction are typescript features.
 
-- union and intersction are typescript features.
+ Union Type
 
-## Union Type
+* A union type in TypeScript allows a variable for checking two values or condition.
+ Example:
 
-* A union type in TypeScript allows a variable for checking two values or condition. It is represented using the (|) operator.
+ type Person = "Men" | "Women" | "Child";
+  In this example, a variable of type Person can have the value "Men", "Women","Child".
 
-- Example: type Person = "Men" | "Women" | "Child";
-  In this example, a variable of type Person can have the value "Men", "Women", or "Child".
+ code here -->
 
-- code here
   function typeCheck(roll: string|number) {
   console.log(roll)
   }
 
-## Intersection Type
+Intersection Type
 
-* An intersection type combines multiple types into a single type.Intersection type is a feature of TypeScript that gives more flexibility when defining classes.
+* An intersection type combines multiple types into a single type.Intersection type is a feature of TypeScript that gives more flexibility.
 
-- code here
+ code here -->
 
 type Person = {
 name: string;

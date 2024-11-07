@@ -1,7 +1,8 @@
 
 //Problem 5 
 
-function getProperty<T, Q extends keyof T>(obj: T, key: Q): T[Q] {
+{
+  function getProperty<T, Q extends keyof T>(obj: T, key: Q): T[Q] {
     return obj[key];
   }
   
@@ -9,3 +10,4 @@ function getProperty<T, Q extends keyof T>(obj: T, key: Q): T[Q] {
   
   console.log(getProperty(person, "name"));  
   
+}
